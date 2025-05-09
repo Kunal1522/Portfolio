@@ -1,0 +1,14 @@
+{
+  "contactMe": {
+    "profilePicture": {
+      "url": "./images/KunalPP.png"
+    },
+    "name": "Kunal Kashyap",
+    "title": "Software Engineer",
+    "summary": "Experienced software developer with a passion for creating elegant and efficient solutions to complex problems.",
+    "companyUniversity": "Birla Institute of Technology",
+    "linkedinLink": "https://linkedin.com/in/johndoe",
+    "email": "kunalkashyap8024@gmail.com",
+    "phoneNumber": "+91 7370888100"
+  }
+}

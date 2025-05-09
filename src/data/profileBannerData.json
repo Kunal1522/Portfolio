@@ -1,0 +1,13 @@
+{
+  "profilebanner": {
+    "backgroundImage": {
+      "url": "./images/logo.png"
+    },
+    "headline": "Software Engineer & Full Stack Developer",
+    "resumeLink": {
+      "url": "https://example.com/resume.pdf"
+    },
+    "linkedinLink": "https://linkedin.com/in/example",
+    "profileSummary": "Experienced software engineer with expertise in building scalable web applications. Passionate about creating elegant solutions to complex problems with modern technologies."
+  }
+}

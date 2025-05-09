@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "title": "Bitotsav Fest Website",
+      "description": "Developed the official website and QR-based ticketing system for Bitotsav'25, East India's biggest cultural fest, streamlining participant verification and engagement. Built key pages and an Android app, resolving 200+ technical issues and boosting online activity by 40%.",
+      "techUsed": "Next.js, Javascript, Redux, Tailwind CSS, Prisma, MongoDB, Radix UI",
+      "image": {
+        "url": "Bitotsav.jpg"
+      },
+      "deployedLink": "https://www.bitotsav.com/",
+      "githubLink":"https://github.com/Kunal1522/website"
+    },
+    {
+      "title": "Swach-Kalej",
+      "description": "Built a web platform promoting sustainable waste management by enabling efficient collection, segregation, and treatment tracking. Designed an interactive UI to educate users and drive eco-conscious behavior.",
+      "techUsed": "Next.js, Javascript, Tailwind CSS, MongoDB, Express",
+      "image": {
+        "url": "BitWaste.jpg"
+      },
+      "deployedLink": "https://waste-management-bit.vercel.app/",
+      "githubLink": "https://github.com/kunalkashyap/project-beta"
+    },
+    {
+      "title": "MoleculeX",
+      "description": "MoLeculeX is an AI-powered drug research platform that enables advanced molecule search and machine learning–driven drug modeling for controlled compound generation. It supports secure user access, real-time collaboration, and scalable data handling to streamline pharmaceutical research.",
+      "techUsed": "Next.js, Node.js, MongoDB, RdKit",
+      "image": {
+        "url": "MoleculeX.jpg"
+      },
+      "deployedLink": "https://waste-management-bit.vercel.app/",
+      "githubLink": "https://github.com/kunalkashyap/project-gamma"
+    },
+    {
+      "title": "BitSharkTank",
+      "description": "This platform replicates the Shark Tank experience, allowing users to pitch startup ideas and receive structured feedback. It features dynamic content management through Sanity CMS and secure access via NextAuth for a smooth and interactive user journey.",
+      "techUsed": "Next.js, Javascript, Redux, Tailwind CSS, MongoDB, ShadCN",
+      "image": {
+        "url": "BitShark.jpg"
+      },
+      "deployedLink": "https://project-delta.example.com",
+      "githubLink": "https://github.com/kunalkashyap/project-delta"
+    },
+    {
+      "title": "Real Time Chat Server",
+      "description": "E-commerce platform with real-time inventory management",
+      "techUsed": "Boost.Asio , C++ , MultiThreading , Networking",
+      "image": {
+        "url": "ChatServer.jpg"
+      },
+      "deployedLink": "https://project-epsilon.example.com",
+      "githubLink": "https://github.com/kunalkashyap/project-epsilon"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Building Scalable React Applications",
+      "description": "Learn best practices for architecting large-scale React applications",
+      "date": "April 15, 2025",
+      "image": {
+        "url": "logo.png"
+      }
+    },
+    {
+      "title": "Introduction to TypeScript for JavaScript Developers",
+      "description": "A beginner's guide to TypeScript and static typing",
+      "date": "March 22, 2025",
+      "image": {
+        "url": "logo.png"
+      }
+    },
+    {
+      "title": "State Management Patterns in Modern Web Applications",
+      "description": "Comparing Redux, Context API, and other state management solutions",
+      "date": "February 10, 2025",
+      "image": {
+        "url": "logo.png"
+      }
+    }
+  ]
+}

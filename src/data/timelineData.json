@@ -1,0 +1,45 @@
+{
+  "allTimelines": [
+    {
+      "name": "Bitotsav Tech Team",
+      "timelineType": "work",
+      "title": "Web Developer",
+      "techStack": "React, Node.js, Express, MongoDB,Next.js, Tailwind CSS",
+      "summaryPoints": [
+       "Engineered the official website for Bitotsav’25, Jharkhand’s largest college fest, serving 5,000+ participants. Developed a QR-based ticketing and verification system to ensure secure entries. Built major web pages including landing, registration, and dashboard. Managed 200+ technical queries, resulting in a 40% boost in online engagement and 27% increase in participation. Played a key role in ensuring smooth and reliable digital operations throughout the event."
+      ],
+      "dateRange": "Feb 2025 - April 2025"
+    },
+    {
+      "name": "IEEE Student Branch, BIT Mesra",
+      "timelineType": "work",
+      "title": "Technical Intern",
+      "techStack": "React, Redux, Express, MongoDB,Problem Solving, Data Structures, Algorithms",
+      "summaryPoints": [
+        "Organized and conducted a C++ workshop for over 400+ students and authored questions in the recruitment contest, which saw the participation of 500+ students."
+      ],
+      "dateRange": "Mar 2020 - Dec 2022"
+    },
+    {
+      "name": "Delhi Public School, Bokaro",
+      "timelineType": "education",
+      "title": "Senior Secondary School",
+      "techStack": "Python, Java, C++",
+      "summaryPoints": [
+        "GPA 10.0/10.0 in CBSE Class 12. Achieved 95% in Mathematics. Secured top 3% in Jee Mains 2023 Actively participated in various extracurricular activities, including being a member of the school’s quiz team and drama club."
+      ],
+      "dateRange": "Aug 2021 - May 2023"
+    },
+    {
+      "name": "Saint Joseph's School",
+      "timelineType": "education",
+      "title": "",
+      "techStack": "C++, JavaScript, Database Systems",
+      "summaryPoints": [
+       
+        "Secured a 96.2% in ICSE. Excelled academically and in extracurriculars, earning the Overall Achievement Award. Was First Runner-Up in the ASISC Regional Quiz (2019) and served on the School Anchoring Committee for 3 years."
+      ],
+      "dateRange": "April 2010 - March 2021"
+    }
+  ]
+}

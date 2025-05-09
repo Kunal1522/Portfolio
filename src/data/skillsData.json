@@ -1,0 +1,144 @@
+{
+    "allSkills": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "description": "Building user interfaces with React and React Hooks",
+        "icon": "FaReact"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Frontend",
+        "description": "Type-safe JavaScript development",
+        "icon": "SiTypescript"
+      },
+      {
+        "name": "JavaScript",
+        "category": "Frontend",
+        "description": "Dynamic scripting language for web development",
+        "icon": "SiJavascript"
+      },
+      {
+        "name": "HTML5",
+        "category": "Frontend",
+        "description": "Markup language for creating web pages",
+        "icon": "FaHtml5"
+      },
+      {
+        "name": "CSS3",
+        "category": "Frontend",
+        "description": "Styling web pages with modern CSS",
+        "icon": "FaCss3Alt"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "description": "Server-side JavaScript runtime",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Express",
+        "category": "Backend",
+        "description": "Web application framework for Node.js",
+        "icon": "SiExpress"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "description": "NoSQL database for modern applications",
+        "icon": "SiMongodb"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "description": "Powerful, open source object-relational database",
+        "icon": "SiPostgresql"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "description": "API query language and runtime",
+        "icon": "SiGraphql"
+      },
+      {
+        "name": "Redux",
+        "category": "Frontend",
+        "description": "State management for JavaScript applications",
+        "icon": "SiRedux"
+      },
+      {
+        "name": "Git",
+        "category": "Tools",
+        "description": "Version control system",
+        "icon": "FaGit"
+      },
+      {
+
+        "name": "Postman",
+        "category": "Testing",
+        "description": "Testing APIs",
+        "icon": "CibPostman"
+      },
+      {
+        "name": "C++",
+        "category": "Programming",
+        "description": "General-purpose programming language with object-oriented features",
+        "icon": "SiCplusplus"
+      },
+      {
+        "name": "C",
+        "category": "Programming",
+        "description": "Procedural programming language for system-level applications",
+        "icon": "SiC"
+      },
+      {
+        "name": "SQL",
+        "category": "Database",
+        "description": "Structured Query Language for database operations",
+        "icon": "SiMysql"
+      },
+      {
+        "name": "Firebase",
+        "category": "Backend",
+        "description": "Google-backed platform for building web and mobile apps",
+        "icon": "SiFirebase"
+      },
+      {
+        "name": "Supabase",
+        "category": "Backend",
+        "description": "Open source Firebase alternative with SQL support",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Prisma",
+        "category": "ORM",
+        "description": "Next-generation TypeScript ORM for Node.js and TypeScript",
+        "icon": "SiPrisma"
+      },
+      {
+        "name": "Mongoose",
+        "category": "ORM",
+        "description": "a Node.js-based Object Data Modeling (ODM) library for MongoDB",
+        "icon": "SiMongoose"
+      },
+      {
+        "name": "React Native",
+        "category": "Mobile",
+        "description": "Framework for building native apps using React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Expo",
+        "category": "Mobile",
+        "description": "Toolchain for developing React Native apps faster",
+        "icon": "SiExpo"
+      },
+      {
+        "name": "Vite",
+        "category": "Tools",
+        "description": "Fast frontend build tool and development server",
+        "icon": "SiVite"
+      }
+    ]
+  }
+  

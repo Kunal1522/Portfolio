@@ -1,0 +1,39 @@
+{
+  "allCertifications": [
+    {
+      "title": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "issuedDate": "March 2024",
+      "link": "https://example.com/certifications/aws-architect",
+      "iconName": "FaAws"
+    },
+    {
+      "title": "Professional Scrum Master I",
+      "issuer": "Scrum.org",
+      "issuedDate": "January 2024",
+      "link": "https://example.com/certifications/psm1",
+      "iconName": "FaUsers"
+    },
+    {
+      "title": "MongoDB Certified Developer",
+      "issuer": "MongoDB University",
+      "issuedDate": "November 2023",
+      "link": "https://example.com/certifications/mongodb-developer",
+      "iconName": "SiMongodb"
+    },
+    {
+      "title": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "issuedDate": "September 2023",
+      "link": "https://example.com/certifications/azure-developer",
+      "iconName": "FaMicrosoft"
+    },
+    {
+      "title": "Google Cloud Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "issuedDate": "July 2023",
+      "link": "https://example.com/certifications/gcp-data-engineer",
+      "iconName": "FaGoogle"
+    }
+  ]
+}
