@@ -17,8 +17,8 @@
       "image": {
         "url": "BitWaste.jpg"
       },
-      "deployedLink": "https://waste-management-bit.vercel.app/",
-      "githubLink": "https://github.com/kunalkashyap/project-beta"
+          "deployedLink": "https://waste-management-bit.vercel.app/",
+      "githubLink": "https://github.com/Kunal1522/WASTE-MANAGEMENT-BIT-"
     },
     {
       "title": "MoleculeX",
@@ -27,8 +27,8 @@
       "image": {
         "url": "MoleculeX.jpg"
       },
-      "deployedLink": "https://waste-management-bit.vercel.app/",
-      "githubLink": "https://github.com/kunalkashyap/project-gamma"
+      "deployedLink": "https://molecule-x-lab-2.vercel.app/",
+      "githubLink": "https://github.com/Kunal1522/MoleculeX-Lab"
     },
     {
       "title": "BitSharkTank",
@@ -37,18 +37,18 @@
       "image": {
         "url": "BitShark.jpg"
       },
-      "deployedLink": "https://project-delta.example.com",
-      "githubLink": "https://github.com/kunalkashyap/project-delta"
+      "deployedLink": "https://bit-shark-tank-rijo0t8ia-kunals-projects-cfaf1afa.vercel.app/",
+      "githubLink": "https://github.com/Kunal1522/BIT-SHARK-TANK"
     },
     {
       "title": "Real Time Chat Server",
-      "description": "E-commerce platform with real-time inventory management",
+      "description": "Constructed a high-performance real-time chat server using Boost.Asio, enabling seamless multi-client communication with efficient message delivery",
       "techUsed": "Boost.Asio , C++ , MultiThreading , Networking",
       "image": {
         "url": "ChatServer.jpg"
       },
-      "deployedLink": "https://project-epsilon.example.com",
-      "githubLink": "https://github.com/kunalkashyap/project-epsilon"
+      "deployedLink": "https://github.com/Kunal1522/C-Chat-Server",
+      "githubLink": "https://github.com/Kunal1522/C-Chat-Server"
     }
   ],
   "blogs": [

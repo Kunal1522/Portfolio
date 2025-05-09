@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FaHome, FaBriefcase, FaTools, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'; // Import icons
+import { FaHome, FaBriefcase, FaTools, FaCode, FaEnvelope, FaDiscord, FaBook, FaLightbulb } from 'react-icons/fa'; // Updated icons
 import './Navbar.css';
 import netflixLogo from '../images/logo.png';
 import blueImage from '../images/blue.png';
@@ -40,7 +40,9 @@ const Navbar: React.FC = () => {
             <li><Link to="/browse">Home</Link></li>
             <li><Link to="/work-experience">Professional</Link></li>
             <li><Link to="/skills">Skills</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/codeforces">Codeforces</Link></li>
+            <li><Link to="/leetcode">Leetcode</Link></li>
+            <li><Link to="/resources">Resources</Link></li>
             <li><Link to="/contact-me">Hire Me</Link></li>
           </ul>
         </div>
@@ -67,7 +69,11 @@ const Navbar: React.FC = () => {
           <li><Link to="/browse" onClick={closeSidebar}><FaHome /> Home</Link></li>
           <li><Link to="/work-experience" onClick={closeSidebar}><FaBriefcase /> Professional</Link></li>
           <li><Link to="/skills" onClick={closeSidebar}><FaTools /> Skills</Link></li>
-          <li><Link to="/projects" onClick={closeSidebar}><FaProjectDiagram /> Projects</Link></li>
+          <li><Link to="/codeforces" onClick={closeSidebar}><FaCode /> Codeforces</Link></li>
+          <li><Link to="/leetcode" onClick={closeSidebar}><FaCode /> Leetcode</Link></li>
+          <li><Link to="/resources" onClick={closeSidebar}><FaBook /> Resources</Link></li>
+          <li><Link to="/discord-servers" onClick={closeSidebar}><FaDiscord /> Discord Servers</Link></li>
+          <li><Link to="/philosophy" onClick={closeSidebar}><FaLightbulb /> My Philosophy</Link></li>
           <li><Link to="/contact-me" onClick={closeSidebar}><FaEnvelope /> Hire Me</Link></li>
         </ul>
       </div>

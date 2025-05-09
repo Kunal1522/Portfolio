@@ -1,8 +1,9 @@
 .music-page {
   text-align: center;
-  padding: 100px 20px;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  padding: 120px 4% 50px;
+  color: var(--netflix-white);
+  background-color: var(--netflix-black);
+  min-height: 100vh;
 }
 
 .music-title {
@@ -13,20 +14,26 @@
 
 .quote {
   font-style: italic;
-  color: #ccc;
-  margin: 20px 0 30px;
-  font-size: 1.2rem;
+  color: #e5e5e5;
+  margin: 20px 0 40px;
+  font-size: 1.3rem;
   animation: fadeIn 2s ease-in-out;
 }
 
-.genre-section, .albums-section {
+.albums-section {
   margin: 30px 0;
 }
 
-.genres, .albums {
+.albums-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: var(--netflix-bright-red);
+}
+
+.albums {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
 }
 
@@ -45,53 +52,68 @@
 }
 
 .album-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+  background: var(--netflix-dark-gray);
+  border-radius: 8px;
   overflow: hidden;
-  width: 200px;
-  transition: transform 0.3s;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: var(--delay);
 }
 
 .album-card:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(244, 13, 21, 0.4);
 }
 
 .album-image {
   width: 100%;
-  height: 180px;
+  height: 220px;
   object-fit: cover;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .album-details {
-  padding: 10px;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
 }
 
 .album-details h4 {
-  margin: 10px 0 5px;
+  margin: 0 0 5px;
   font-size: 1.1rem;
-  color: #fff;
+  color: var(--netflix-white);
 }
 
 .album-details p {
   margin: 0;
   font-size: 0.9rem;
-  color: #ccc;
+  color: #b3b3b3;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.genre-card {
-  animation: popIn 0.5s forwards ease-in;
+@media (max-width: 768px) {
+  .albums {
+    gap: 15px;
+  }
+  
+  .album-card {
+    width: 160px;
+  }
+  
+  .album-image {
+    height: 160px;
+  }
 }
 
 @keyframes popIn {

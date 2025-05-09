@@ -2,50 +2,31 @@
 
 import React from 'react';
 import './Reading.css';
-import atomicHabits from '../images/atomic_habits.jpg';
-import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
-import alchemist from '../images/alchemist.jpg';
-import eatThatFrog from '../images/eat_that_frog.jpg';
-import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
-import venneloAdapilla from '../images/vennelo_adapilla.jpeg';
+
+// Book cover images
+const cantHurtMe = "canthurtme.jpg";
+const deepFocus = "deepfocus.jpg";
+const subtleArt = "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UF1000,1000_QL80_.jpg";
 
 const books = [
   {
-    title: "Atomic Habits",
-    author: "James Clear",
-    imgSrc: atomicHabits,
-    description: "A practical guide to building good habits and breaking bad ones.",
+    title: "Can't Hurt Me",
+    author: "David Goggins",
+    imgSrc: cantHurtMe,
+    description: "Master Your Mind and Defy the Odds - A powerful memoir about overcoming obstacles and pushing past limits.",
   },
   {
-    title: "Rich Dad Poor Dad",
-    author: "Robert Kiyosaki",
-    imgSrc: richDadPoorDad,
-    description: "An eye-opener on wealth, assets, and financial literacy.",
+    title: "Deep Focus",
+    author: "Cal Newport",
+    imgSrc: deepFocus,
+    description: "Rules for Focused Success in a Distracted World - How to work with concentration in a world full of distractions.",
   },
   {
-    title: "The Alchemist",
-    author: "Paulo Coelho",
-    imgSrc: alchemist,
-    description: "A magical journey of following one's dreams.",
-  },
-  {
-    title: "Eat That Frog",
-    author: "Brian Tracy",
-    imgSrc: eatThatFrog,
-    description: "A motivational book on overcoming procrastination.",
-  },
-  {
-    title: "Vijayaniki Aidhu Metlu",
-    author: "Yandamoori Veerendranath",
-    imgSrc: vijayanikiAidhuMetlu,
-    description: "An inspirational Telugu book for personal growth.",
-  },
-  {
-    title: "Vennelo Adapilla",
-    author: "Yandamoori Veerendranath",
-    imgSrc: venneloAdapilla,
-    description: "A classic Telugu romantic novel that touches the heart.",
-  },
+    title: "The Subtle Art of Not Giving a F*ck",
+    author: "Mark Manson",
+    imgSrc: subtleArt,
+    description: "A Counterintuitive Approach to Living a Good Life - A refreshing perspective on how to find what truly matters.",
+  }
 ];
 
 const Reading: React.FC = () => {

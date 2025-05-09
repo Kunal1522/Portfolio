@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ContinueWatching.css';
 
-type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'adventure';
+type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'competitive coder';
 
 interface ContinueWatchingProps {
   profile: ProfileType;
@@ -19,7 +19,6 @@ const continueWatchingConfig = {
     { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
     { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
     { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
   stalker: [
@@ -27,11 +26,11 @@ const continueWatchingConfig = {
     { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
   ],
-  adventure: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+  "competitive coder": [
+    { title: "Leetcode", imgSrc: "https://picsum.photos/id/1/300/200", link: "/leetcode" },
+    { title: "Codeforces", imgSrc: "https://picsum.photos/id/2/300/200", link: "/codeforces" },
+    { title: "Resources", imgSrc: "https://picsum.photos/id/26/300/200", link: "/resources" }, 
+    { title: "My Philosophy", imgSrc: "https://picsum.photos/id/42/300/200", link: "/philosophy" }
   ]
 };
 

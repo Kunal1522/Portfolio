@@ -1,0 +1,112 @@
+.philosophy-container {
+  padding: 120px 4% 50px;
+  background-color: var(--netflix-black);
+  color: var(--netflix-white);
+  min-height: 100vh;
+}
+
+.philosophy-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.philosophy-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--netflix-bright-red);
+}
+
+.philosophy-subtitle {
+  font-size: 1.2rem;
+  color: #b3b3b3;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.philosophy-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.philosophy-card {
+  display: flex;
+  background-color: var(--netflix-dark-gray);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeInRight 0.5s forwards ease-out;
+  animation-delay: var(--delay);
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.philosophy-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(244, 13, 21, 0.4);
+}
+
+.principle-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--netflix-white);
+  background-color: var(--netflix-bright-red);
+  min-width: 80px;
+  padding: 15px;
+}
+
+.principle-content {
+  padding: 25px;
+  flex: 1;
+}
+
+.principle-icon {
+  font-size: 1.8rem;
+  color: var(--netflix-bright-red);
+  margin-bottom: 15px;
+}
+
+.principle-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.principle-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .philosophy-card {
+    flex-direction: column;
+  }
+  
+  .principle-number {
+    width: 100%;
+    min-width: auto;
+    padding: 10px;
+  }
+  
+  .philosophy-header h1 {
+    font-size: 2.2rem;
+  }
+}

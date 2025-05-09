@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "CSES Problem Set",
+      "url": "https://cses.fi/problemset/",
+      "description": "A comprehensive collection of competitive programming problems covering essential algorithms and data structures",
+      "whyUseful": "Helped me build a strong foundation in core competitive programming topics"
+    },
+    {
+      "name": "Competitive Programmer's Handbook by Antti Laaksonen",
+      "url": "https://cses.fi/book/book.pdf",
+      "description": "Free book covering all fundamental algorithms and techniques for competitive programming",
+      "whyUseful": "Clear explanations helped me understand complex algorithms like segment trees and FFT"
+    },
+    {
+      "name": "Errichto YouTube Channel",
+      "url": "https://www.youtube.com/c/Errichto",
+      "description": "Video tutorials on solving competitive programming problems and explaining algorithms",
+      "whyUseful": "Watching his thought process while solving problems improved my approach to problem-solving"
+    },
+    {
+      "name": "CP-Algorithms",
+      "url": "https://cp-algorithms.com/",
+      "description": "Detailed explanations of algorithms with code implementations",
+      "whyUseful": "In-depth coverage of advanced topics with pseudocode and examples"
+    },
+    {
+      "name": "AtCoder Contest Library",
+      "url": "https://atcoder.github.io/ac-library/master/document_en/",
+      "description": "Collection of high-performance algorithms and data structures for competitive programming",
+      "whyUseful": "Ready-to-use implementations that helped me focus on problem-solving strategies"
+    }
+  ]
+}

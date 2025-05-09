@@ -5,18 +5,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: var(--netflix-white);
   position: fixed;
   width: 100%;
   top: 0;
-  background-image: linear-gradient(180deg, rgb(0 0 1 / 90%) 10%, transparent 100%);
-  padding: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 10%, transparent 100%);
+  padding: 16px 4%;
   z-index: 3;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar.scrolled {
-  background-color: #141414; /* Netflix black when scrolled */
+  background-color: var(--netflix-black); /* Updated to use CSS variable */
 }
 
 .navbar-left, .navbar-right {
@@ -48,7 +48,7 @@
 }
 
 .navbar-links li a:hover {
-  color: #e50914; /* Netflix red */
+  color: var(--netflix-bright-red); /* Updated brighter Netflix red */
 }
 
 /* Profile Icon */
@@ -57,7 +57,7 @@
   height: 30px;
   border-radius: 15%;
   transition: transform 0.3s;
-  margin-right: 3rem;
+  margin-right: 4rem;
   cursor: pointer;
 }
 

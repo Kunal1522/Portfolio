@@ -1,9 +1,21 @@
+:root {
+  /* Updated Netflix color palette 2023 */
+  --netflix-red: #E50914;         /* Standard Netflix red */
+  --netflix-bright-red: #F40D15;  /* Brighter Netflix red for modern UI */
+  --netflix-hover-red: #FF0A16;   /* Hover state red */
+  --netflix-black: #141414;       /* Netflix background black */
+  --netflix-dark-gray: #181818;   /* Card background */
+  --netflix-medium-gray: #2F2F2F; /* Secondary elements */
+  --netflix-light-gray: #808080;  /* Text and borders */
+  --netflix-white: #FFFFFF;       /* Text and highlights */
+}
+
 body {
   margin: 0;
   font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #141414;
+  background-color: var(--netflix-black);
 }
 
 code {

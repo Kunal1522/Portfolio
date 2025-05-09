@@ -1,39 +1,35 @@
 import React from 'react';
 import './Music.css';
-import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
-import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC
-import albumCover3 from '../images/guns-n-roses.webp'; // Appetite for Destruction by Guns N' Roses
 
-const favoriteGenres = ["Rock", "Classic Rock", "Hard Rock", "Blues", "Alternative"];
+// We'll use placeholder images since we don't have the actual images in the project
+const brownRangImg = "Brownrang.jpg"; // Placeholder for the actual image
+const dopeShopImg = "DopeShope.jpg"; // Placeholder for the actual image
+const oMaahiImg = "omaahi.jpg"; // Placeholder for the actual image
+const afterDarkImg = "afterdark.png"; // Placeholder for the actual image
+
 const favoriteAlbums = [
-  { title: "Hotel California", artist: "The Eagles", imgSrc: albumCover1 },
-  { title: "Back in Black", artist: "AC/DC", imgSrc: albumCover2 },
-  { title: "Appetite for Destruction", artist: "Guns N' Roses", imgSrc: albumCover3 },
+  { title: "Brown Rang", artist: "Yo Yo Honey Singh", imgSrc: brownRangImg },
+  { title: "Dope Shope", artist: "Yo Yo Honey Singh", imgSrc: dopeShopImg },
+  { title: "O Maahi", artist: "Arijit Singh", imgSrc: oMaahiImg },
+  { title: "After Dark", artist: "Mr.Kitty", imgSrc: afterDarkImg }
 ];
 
 const Music: React.FC = () => {
   return (
     <div className="music-page">
       <div className="quote">
-        <p>“Rock and Roll isn’t a genre, it’s a way of life.” 🎸</p>
-      </div>
-
-      <div className="genre-section">
-        <h3>Explore by Genre</h3>
-        <div className="genres">
-          {favoriteGenres.map((genre, index) => (
-            <div key={index} className="genre-card" style={{ animationDelay: `${index * 0.2}s` }}>
-              <p>{genre}</p>
-            </div>
-          ))}
-        </div>
+        <p>"Music gives a soul to the universe, wings to the mind, flight to the imagination." 🎵</p>
       </div>
 
       <div className="albums-section">
-        <h3>Favorite Albums</h3>
+        <h3>Favorite Tracks</h3>
         <div className="albums">
           {favoriteAlbums.map((album, index) => (
-            <div key={index} className="album-card" style={{ animationDelay: `${index * 0.3}s` }}>
+            <div 
+              key={index} 
+              className="album-card" 
+              style={{ '--delay': `${index * 0.2}s` } as React.CSSProperties}
+            >
               <img src={album.imgSrc} alt={album.title} className="album-image" />
               <div className="album-details">
                 <h4>{album.title}</h4>

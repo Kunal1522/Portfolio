@@ -1,0 +1,40 @@
+{
+  "username": "competitive_coder",
+  "rank": "Knight",
+  "problemsSolved": 150,
+  "contestRating": 1823,
+  "contestsParticipated": 5,
+  "streak": 9,
+  "achievements": [
+    "Solved 100+ Medium problems",
+    "75+ Easy problems with optimal solutions",
+    "30+ Hard problems completed",
+    "Top 5% Globally in Leetcode "
+  ],
+  "strongTopics": [
+    "Arrays",
+    "Binary Search", 
+    "Dynamic Programming",
+    "Tree Algorithms"
+  ],
+  "favProblems": [
+    {
+      "problem": "Longest Increasing Subsequence",
+      "difficulty": "Medium",
+      "language": "Java",
+      "runtime": "Beats 93.4% of users"
+    },
+    {
+      "problem": "Maximum Subarray",
+      "difficulty": "Medium",
+      "language": "Python",
+      "runtime": "Beats 89.2% of users"
+    },
+    {
+      "problem": "Merge Intervals",
+      "difficulty": "Medium", 
+      "language": "C++",
+      "runtime": "Beats 96.1% of users"
+    }
+  ]
+}

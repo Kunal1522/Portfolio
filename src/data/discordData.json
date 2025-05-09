@@ -1,0 +1,52 @@
+{
+  "servers": [
+    {
+      "name": "Competitive Programming",
+      "members": "45,000+",
+      "url": "https://discord.gg/competitive-programming",
+      "description": "Largest competitive programming community with channels for contests, problem discussions, and interview prep",
+      "benefits": [
+        "Daily problem discussions",
+        "Contest reminders and virtual contests",
+        "Access to top competitive programmers for advice",
+        "Regular mock interviews and coding challenges"
+      ]
+    },
+    {
+      "name": "Codeforces Community",
+      "members": "28,000+",
+      "url": "https://discord.gg/codeforces",
+      "description": "Official Discord server for Codeforces users to discuss problems and share resources",
+      "benefits": [
+        "Contest announcements and discussions",
+        "Problem explanations from expert coders",
+        "Regional competitive programming channels",
+        "Educational resources and book recommendations"
+      ]
+    },
+    {
+      "name": "Algorithms & Data Structures",
+      "members": "32,000+",
+      "url": "https://discord.gg/algorithms",
+      "description": "Server focused on algorithm learning and implementation, with channels for all major languages",
+      "benefits": [
+        "Weekly algorithm challenges",
+        "Language-specific implementation advice",
+        "Interview preparation resources",
+        "Online study groups for specific topics"
+      ]
+    },
+    {
+      "name": "LeetCode Grind",
+      "members": "38,000+",
+      "url": "https://discord.gg/leetcode-grind",
+      "description": "Community focused on consistent LeetCode practice and interview preparation",
+      "benefits": [
+        "Daily problem discussions",
+        "Mock interview partners",
+        "Company-specific interview channels",
+        "Resume review and career advice"
+      ]
+    }
+  ]
+}

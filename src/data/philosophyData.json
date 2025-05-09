@@ -1,0 +1,32 @@
+{
+  "philosophy": [
+    {
+      "title": "Break Down Complex Problems",
+      "description": "I approach difficult problems by breaking them down into smaller, more manageable sub-problems. This divide-and-conquer approach helps me identify patterns and build solutions incrementally."
+    },
+    {
+      "title": "Start with Brute Force",
+      "description": "I always begin with a working brute force solution before optimizing. Having a correct solution, even if inefficient, gives me a baseline to improve upon and validates my understanding of the problem."
+    },
+    {
+      "title": "Learn from Every Mistake",
+      "description": "Failed submissions are learning opportunities. I analyze my incorrect solutions to understand edge cases and logical errors, creating a personal database of common pitfalls to avoid."
+    },
+    {
+      "title": "Visualize Algorithms",
+      "description": "I draw diagrams and trace through examples by hand to better understand complex algorithms. Visual representation helps me identify optimizations and catch implementation errors early."
+    },
+    {
+      "title": "Consistent Practice Schedule",
+      "description": "I solve at least 3-5 problems weekly, focusing on specific topics in rotation. Consistent practice builds muscle memory for recognizing problem patterns and applying appropriate algorithms."
+    },
+    {
+      "title": "Read Others' Solutions",
+      "description": "After solving a problem, I study alternative solutions. This exposes me to different approaches and often reveals more elegant or efficient solutions I hadn't considered."
+    },
+    {
+      "title": "Time-Boxed Problem Solving",
+      "description": "I set time limits for problems to simulate contest conditions. If I can't solve it within the timeframe, I review hints, understand the approach, then revisit the problem later."
+    }
+  ]
+}

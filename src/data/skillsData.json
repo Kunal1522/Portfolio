@@ -81,13 +81,13 @@
       },
       {
         "name": "C++",
-        "category": "Programming",
+        "category": "Low Level Programming",
         "description": "General-purpose programming language with object-oriented features",
         "icon": "SiCplusplus"
       },
       {
         "name": "C",
-        "category": "Programming",
+        "category": "Low Level Programming",
         "description": "Procedural programming language for system-level applications",
         "icon": "SiC"
       },
@@ -100,7 +100,7 @@
       {
         "name": "Firebase",
         "category": "Backend",
-        "description": "Google-backed platform for building web and mobile apps",
+        "description": "Google-backed platform for building web and Android Development apps",
         "icon": "SiFirebase"
       },
       {
@@ -123,13 +123,13 @@
       },
       {
         "name": "React Native",
-        "category": "Mobile",
+        "category": "Android Development",
         "description": "Framework for building native apps using React",
         "icon": "FaReact"
       },
       {
         "name": "Expo",
-        "category": "Mobile",
+        "category": "Android Development",
         "description": "Toolchain for developing React Native apps faster",
         "icon": "SiExpo"
       },

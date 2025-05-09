@@ -5,7 +5,6 @@ import ProfilePage from './profilePage/profilePage';
 import Browse from './browse/browse';
 import WorkPermit from './pages/WorkPermit';
 import WorkExperience from './pages/WorkExperience';
-import Recommendations from './pages/Recommendations';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
@@ -13,7 +12,11 @@ import Layout from './Layout';
 import Music from './pages/Music';
 import Reading from './pages/Reading';
 import Blogs from './pages/Blogs';
-import Certifications from './pages/Certifications';
+import CodeforceProfile from './pages/CodeforceProfile';
+import LeetcodeProfile from './pages/LeetcodeProfile';
+import Resources from './pages/Resources';
+import DiscordServers from './pages/DiscordServers';
+import Philosophy from './pages/Philosophy';
 
 const App: React.FC = () => {
   return (
@@ -23,14 +26,17 @@ const App: React.FC = () => {
       <Route path="/profile/:profileName" element={<Layout><ProfilePage /></Layout>} />
       <Route path="/work-permit" element={<Layout><WorkPermit /></Layout>} />
       <Route path="/work-experience" element={<Layout><WorkExperience /></Layout>} />
-      <Route path="/recommendations" element={<Layout><Recommendations /></Layout>} />
       <Route path="/skills" element={<Layout><Skills /></Layout>} />
       <Route path="/projects" element={<Layout><Projects /></Layout>} />
       <Route path="/contact-me" element={<Layout><ContactMe /></Layout>} />
       <Route path="/music" element={<Layout><Music /></Layout>} />
       <Route path="/reading" element={<Layout><Reading /></Layout>} />
       <Route path="/blogs" element={<Layout><Blogs /></Layout>} />
-      <Route path="/certifications" element={<Layout><Certifications /></Layout>} />
+      <Route path="/codeforces" element={<Layout><CodeforceProfile /></Layout>} />
+      <Route path="/leetcode" element={<Layout><LeetcodeProfile /></Layout>} />
+      <Route path="/resources" element={<Layout><Resources /></Layout>} />
+      <Route path="/discord-servers" element={<Layout><DiscordServers /></Layout>} />
+      <Route path="/philosophy" element={<Layout><Philosophy /></Layout>} />
     </Routes>
   );
 };

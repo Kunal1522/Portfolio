@@ -1,47 +1,59 @@
 .top-picks-row {
-  margin: 20px 0;
-  padding: 10px 20px
+  margin: 30px 0;
+  padding: 10px 4%;
 }
 
 .row-title {
   font-size: 2rem;
-  color: #fff;
+  color: var(--netflix-white);
   margin-bottom: 20px;
   animation: fadeIn 1s ease-in-out;
+  font-weight: 600;
 }
 
 .card-row {
   display: flex;
-  gap: 15px;
+  gap: 18px;
+  overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+  padding-bottom: 30px;
+  margin-left: -8px;
+  padding-left: 8px;
+}
+
+.card-row::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
 }
 
 .pick-card {
   position: relative;
-  width: 250px;
-  height: 200px;
-  border-radius: 8px;
+  width: 280px;
+  height: 160px;
+  border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
   animation: slideIn 0.5s ease forwards;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .pick-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   cursor: pointer;
-  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.5); /* Netflix red glow on hover */
+  box-shadow: 0 8px 25px rgba(244, 13, 21, 0.6); /* Brighter Netflix red glow */
+  z-index: 2;
 }
 
 .pick-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .pick-card:hover .pick-image {
   transform: scale(1.1);
+  filter: brightness(1.1);
 }
 
 .overlay {
